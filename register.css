@@ -9,11 +9,9 @@ body {
     min-height: 100vh;
     padding: 0;
     background-color: red;
-}
-
-
-
-.login-container{
+  }
+  
+  .login-container {
     display: flex;
     flex-direction: column;
     background: white;
@@ -21,26 +19,25 @@ body {
     max-width: 400px;
     width: 100%;
     padding: 10px;
-}
-
-.header{
+  }
+  
+  .header {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-}
-
-
-.user-inputs {
+  }
+  
+  .user-inputs {
     border-radius: 18px;
-    padding: 10px ;
+    padding: 10px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-    font-size:15px;
-
-}
-
-.inputs-div  {    
+    font-size: 20px;
+    /* width:100%; */
+  }
+  
+  .inputs-div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,32 +45,30 @@ body {
     justify-content: center;
     width: 100%;
     margin-top: 20px;
-}
-
-.inputs {
+  }
+  
+  .inputs {
     width: 100%;
     padding: 20px;
     border-radius: 18px;
     border: 1px solid black;
     outline: none;
-
-}
-
-.icon-img{
+  }
+  
+  .icon-img {
     position: absolute;
     right: 20px;
     width: 18px;
-    height:18px;
-}
-
-.forget-password{
-    display: flex;
-    
+    height: 18px;
+  }
+  
+  .forget-password {
     margin-top: 10px;
+    text-align: right;
     border: 1px solid blue;
-}
-
-button {
+  }
+  
+  button {
     border: none;
     border-radius: 18px;
     background-color: #9e2db4;
@@ -83,31 +78,51 @@ button {
     width: 100%;
     margin-top: 20px;
     padding: 20px;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #b396bb;
-}
-
-.remember-me{
+  }
+  
+  .remember-me {
     display: flex;
     flex-direction: row;
     gap: 5px;
     margin-top: 10px;
-}
-
-/* a{
+  }
+  
+  a {
     text-decoration: none;
-    color: blue;
-}
-
-
-a:hover{
+    color: purple;
+  }
+  
+  a:hover {
     text-decoration: underline;
-} */
-
-.register{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
+  }
+  
+  .register {
+    text-align: center;
+  }
+  
+  /*policies*/
+  
+  .policy-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .policy-section label {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .policy-section a {
+    color: purple;
+  }
+  
+  .policy-section a:hover {
+    text-decoration: underline;
+  }
+  

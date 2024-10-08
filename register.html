@@ -3,45 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lottomoto Login</title>
-    <link rel="stylesheet" href="register.css">
-    
+    <title>Lottomoto Registration</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="login-container">
-        <span class="header">Register</span>
-
-            <div class="user-inputs">
-                <div class="inputs-div">
-                    <input class="inputs" type="text" placeholder="Phone Number" required>
-                    <img class="icon-img"src="images/phone-call.png" alt="Img">
-                </div>
-
-                <div class="inputs-div">
-                    <input class="inputs" type="password"  placeholder="Password" required>
-                    <img class="icon-img" src="images/eye.png" alt="Img">
-                </div>
-                <div class="inputs-div">
-                    <input class="inputs" type="password"  placeholder=" confirm Password" required>
-                    <img class="icon-img" src="images/eye.png" alt="Img">
-                </div>
-
-                <div class="forget">
-                    <a href="#">Forget password</a>
-                </div>
-                
-                    <button type="submit">Login</button>
-
-                <div class="remember-me">
-                    <input type="checkbox"> <span>Remember me</span>
-                </div>
-            </div>
-            
-            <div class="register">
-                <p>Don't have an account? <a href="login.html">login</a></p>
+        <span class="header">REGISTER</span>
+        <div class="user-inputs">
+            <div class="inputs-div">
+                <input class="inputs" type="text" placeholder="Phone Number" required>
+                <img class="icon-img" src="phone-call.png" alt="Img">
             </div>
 
+            <div class="inputs-div">
+                <input class="inputs" type="password" placeholder="Password" required>
+                <img class="icon-img" src="eye.png" alt="Img">
+            </div>
+
+            <div class="inputs-div">
+                <input class="inputs" type="password" placeholder="Confirm Password" required>
+                <img class="icon-img" src="eye.png" alt="Img">
+            </div>
+
+            <div class="policy-section">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">By checking this message, I hereby confirm that I agree with the  <a href="#">Terms and Conditions</a> ,the <a href="#">Privacy Policy</a>,that I am 18 years old or over and that all information given is true</label>
+            </div>
+
+            <button type="submit">Register</button>
+        </div>
+
+        <div class="register">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
     </div>
-
 </body>
 </html>
